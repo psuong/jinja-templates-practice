@@ -4,4 +4,10 @@
 
 <p> {{ description }} </p>
 
+{# Show the link on the home page, but don't show it on the page when the link below is clicked. #}
+
+{% if do_show_link %}
+<a href="/another-link">Remember this link should only appear on the url with '/'</a>
+{% endif %}
+
 {% endblock %}

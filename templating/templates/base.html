@@ -2,16 +2,15 @@
 <html lang='en-US'>
     <head>
         <meta charset='utf-8'>
-        {# Assign the variable below in your Python file. #}
-        {{ title }}
+        <title> {{ title }} </title>
     </head>
 
     <body>
-        {# Take a look at "include_example.html" for the line below. #}
+        {# Take a look at the "include_example.html" to see which variables you need to assign. #}
 
         {% include "include_example.html" %}
-        
-        {# Take a look at "extends_example.html" for the following code below. #}
+
+        {# Make sure you look at "extends_example.html" #}
 
         {% block body %}
         {% endblock %}
